@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program Adiwiyata - Galeri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Program Adiwiyata</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="about.html">Tentang</a></li>
+                <li><a href="benefits.html">Manfaat</a></li>
+                <li><a href="gallery.html">Galeri</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Galeri Adiwiyata</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="sirih.jpeg" alt="Gambar Lingkungan 1" data-caption="Manfaat: Menjernihkan dan menyaring udara, meningkatkan kelembapan ruangan, dan mengurangi
+                        stres.">
+                    <h3>Tanaman Sirih</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="lidah mertua.jpg" alt="Gambar Lingkungan 2"
+                        data-caption="Manfaat: penyaring udara alami, mampu menyerap polutan seperti benzena dan formaldehida.">
+                    <h3>Tanaman Lidah Mertua</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="sawi hijau.jpg" alt="Gambar Lingkungan 3"
+                        data-caption="Manfaat: menjaga kesehatan jantung, meningkatkan kekuatan tulang, mencegah anemia, melindungi dari risiko kanker, dan mendukung kesehatan mata.">
+                    <h3>Tanaman Sawi Hijau</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="sawo.png" alt="Gambar Lingkungan 3"
+                        data-caption="Manfaat: meningkatkan kekebalan tubuh, menjaga kesehatan pencernaan, menangkal radikal bebas, dan menjaga kesehatan jantung.">
+                    <h3>Tanaman Pohon Sawo</h3>
+                </div>
+                <!-- Contoh untuk menambahkan item baru: -->
+                <!-- <div class="gallery-item">
+                    <img src="image4.jpg" alt="Gambar Lingkungan 4" data-caption="Kegiatan Lain">
+                    <h3>Judul Baru</h3>
+                    <p>Manfaat: Deskripsi manfaat baru di sini.</p>
+                </div> -->
+            </div>
+
+            <!-- Modal untuk gambar besar -->
+            <div id="modal" class="modal">
+                <span class="close-modal">&times;</span>
+                <img id="modal-image" src="" alt="Gambar Besar">
+                <p id="modal-caption"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
